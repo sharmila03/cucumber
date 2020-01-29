@@ -7,7 +7,7 @@
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
--<properties>
+<properties>
 
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -22,10 +22,8 @@
 </properties>
 
 
--<dependencies>
-
-
--<dependency>
+<dependencies>
+<dependency>
 
 <groupId>io.cucumber</groupId>
 
@@ -38,7 +36,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>io.cucumber</groupId>
 
@@ -51,7 +49,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>junit</groupId>
 
@@ -62,17 +60,12 @@
 <scope>test</scope>
 
 </dependency>
-
 </dependencies>
+<build>
+<plugins>
 
 
--<build>
-
-
--<plugins>
-
-
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -81,7 +74,7 @@
 <version>${maven.compiler.version}</version>
 
 
--<configuration>
+<configuration>
 
 <encoding>UTF-8</encoding>
 
